@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: white;
+    border-bottom: 1px solid lightgray;
+}
+.container{
+    /*background: tomato;*/
+}
+.container-left{
+    width: 980px;
+    margin: auto;
+    padding: 20px 0;
+}
+/*tip padding을 넣어 간격을 줄 때는 최상위 요소보다는 넣었을 때 효과를 볼 수 있는 최하위 요소에 적용하는 것이 좋다.*/
+.logo{
+    float: left;
+    margin-right: 5px;
+}
+/*로고 내 하위 요소인 img라는 태그에만 적용되는 CSS*/
+.logo img{
+    display: block;
+}
+.menu{
+    float: left;
+}
+.menu-item{
+    float: left;
+    /*margin-right: 10px;*/
+    padding: 8px 10px;
+    /*앞이 위아래 뒤가 좌우*/
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
