@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Peniel Cho">
+    <meta name="description" content="Image Test Page">
+    <title>Imagetest</title>
+    <link rel="stylesheet" href="imagecss.css">
+    <link rel="icon" href="./favicon.png">
+</head>
+<body>
+<!--    <img srcset="images/heropy_small.png 400w,-->
+<!--                 images/heropy_medium.png 700w,-->
+<!--                 images/heropy_large.png 1000w"-->
+<!--         sizes="(min-width: 1000px) 700px"-->
+<!--         src="images/heropy.png"-->
+<!--         alt="heropy image">-->
+<!--    <img srcset="images/heropy_small.png 400w,-->
+<!--                 images/heropy_medium.png 700w,-->
+<!--                 images/heropy_large.png 1000w"-->
+<!--         sizes="500px"-->
+<!--         src="images/heropy.png"-->
+<!--         alt="heropy image">-->
+<!--    <audio src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"-->
+<!--           autoplay-->
+<!--           controls-->
+<!--           loop-->
+<!--           muted></audio>-->
+<!--    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"-->
+<!--    controls-->
+<!--    poster="favicon.png"-->
+<!--    width="300"-->
+<!--    height="300"-->
+<!--    loop></video>-->
+
+<!--<figure>-->
+<!--    <img src="images/heropy.png" alt="HEROPY">-->
+<!--    <figcaption>heropy 이미지 입니다.</figcaption>-->
+<!--</figure>-->
+
+<!--<iframe width="700"-->
+<!--        height="400"-->
+<!--        src="https://www.youtube.com/embed/J_sPEzOsixE"-->
+<!--        title="YouTube video player" frameborder="0"-->
+<!--        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"-->
+<!--        allowfullscreen>-->
+<!--    <iframe>-->
+
+<!--<p>우리 페이지야</p>-->
+<!--<div>-->
+<!--    <img src="images/heropy.png" alt="hero">-->
+<!--</div>-->
+<!--<div>-->
+<!--<iframe src="https://daum.net" frameborder="0" width="70%" height="400px"-->
+<!--    style="border: 4px solid red;"></iframe>-->
+<!--</div>-->
+
+<canvas id="canvas" width="200px" height="150px"></canvas>
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'rgb(200,0,0)';
+    ctx.fillRect(10, 10, 50, 50);
+    ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+    ctx.fillRect(30, 30, 50, 50);
+</script>
+
+</body>
+</html>
