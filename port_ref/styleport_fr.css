@@ -140,6 +140,13 @@ nav {
     padding: 20px;
 }
 
+#last-footer-cat{
+    width: 150px;
+    height: 250px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
 .footer-cat-head{
     display: block;
     text-decoration: none;
