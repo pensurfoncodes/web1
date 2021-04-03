@@ -109,15 +109,42 @@ nav {
 .box{
     width: 100%;
     height: 600px;
-    background: lightgray;
+    background: whitesmoke;
 }
 
-.box:hover{
-    height: 800px;
-    background: #4169e1;
-    transition: 0.4s;
+/*.box:hover{*/
+/*    height: 800px;*/
+/*    background: #4169e1;*/
+/*    transition: 0.4s;*/
+/*}*/
+
+.gentle{
+    background: royalblue;
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    float: left;
 }
 
+.monster{
+    background: royalblue;
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    float: right;
+}
+
+.gentle:hover{
+    width: 230px;
+    height: 230px;
+    transition: 0.3s;
+}
+
+.monster:hover{
+    width: 230px;
+    height: 230px;
+    transition: 0.3s;
+}
 
 
 /*footer*/
@@ -210,6 +237,7 @@ footer section div div a:hover{
     float: right;
     margin-top: 250px;
 }
+
 
 
 /*.site-footer .widget{margin-bottom:1.5rem}.site-footer p{text-align:center}.banner-area{height:280px}*/
