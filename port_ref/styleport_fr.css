@@ -5,7 +5,7 @@
 
 /*날 잡고 다 수정하자...*/
 
-.clearfix::adter{
+.clearfix::after{
     content: "";
     clear: both;
     display: block;
