@@ -1,8 +1,14 @@
-.container{
+.container {
   $size: 100px;
-  .item{
+
+  .item {
     width: $size;
     height: $size;
     background: tomato;
   }
-}waa
+}
+
+.box{
+  $width: 200px
+  width: $width;
+}
