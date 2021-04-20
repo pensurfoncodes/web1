@@ -1,0 +1,185 @@
+/*COMMON*/
+.body__container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*FLOAT CLEARFIX*/
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.float--left {
+    float: left;
+}
+.float--right {
+    float: right;
+}
+
+
+/*BTN*/
+.btn{
+    height: 34px;
+    background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    /*   행간격 */
+    cursor: pointer;
+    /*   마우스가 손꾸락으로 변경 */
+    box-sizing: border-box;
+    /*   패딩이나 보더가 들어갔을때 확커지는 걸 막아주는 속성 */
+    position: relative;
+    /*   포지션값이 없는 경우 추가하면 무조건 relative! */
+    color: #333;
+}
+
+.btn:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.07);
+}
+
+.btn.btn--primary{
+    border: 1px solid #65b836;
+    color: #fff;
+    background: #55a532 linear-gradient(#91dd70, #55ae2e);
+}
+
+/*INPUT TEXT*/
+
+.input--text{
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0,0.075);
+    font-size: 16px;
+}
+.input--text:focus {
+    border-color: #51a7e8;
+    /*   focus 되지 않은 상태는 blur */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0,0.075) , 0 0 5px rgba(81,167,232,0.5);
+}
+/* 기존 shadow를 유지하며 focus되었을 때 새로운 shadow를 적용하는 방법: 이전shadow , 이후shadow */
+/* Vendor Prefix (브라우저 업체별 접두사) 대표: Chrome의 Webkit, MS의 ms, mozila의 moz, opera의 o(inputplaceholder지원 X) */
+.input--text::-webkit-input-placeholder {color: #cacaca;}
+.input--text::-ms-input-placeholder {color: #cacaca;}
+.input--text::-moz-input-placeholder {color: #cacaca;}
+
+
+/*HEADER*/
+
+header{
+    border-bottom: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    background: #fff;
+    /*원래 6자 헥사데시멀 코드가 맞지만 완전 반복의 경우 3글자로 줄일 수 있음. FFFFFF > FFF*/
+}
+header .inner{
+    height: 78px;
+    /*왜 해더가 아니라 헤더 .이너에서 높이를 정해주느냐? 헤더에서 높이를 정할 경우
+    inner는 높이가 정해지지 않기 때문에 다시 정해야 하기 때문.*/
+    max-width: 980px;
+    margin: 0 auto;
+    /*중앙자동정렬. 다만 이처럼 마진 0 auto를 사용하기 위해서는 무조건 width가 정의 되어 있어야 함!*/
+
+}
+header .menu-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /*로고와 ul의 수평정렬*/
+}
+header .logo {
+    margin-right: 10px;
+}
+header .logo a {
+    background: url("../img/logo.svg");
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999px;
+    /*a의 GitHub글자 지우지 마라! why? img 태그의 alt 역할을 대신 해주는 것.
+    text-indent: -9999px; 들여쓰기로 화면 밖으로 빼주기.*/
+}
+header .logo a:hover{
+    background: url("../img/logo_on.svg");
+}
+header .main-menu{
+    display: flex;
+    /*display: flex;는 자식요소의 수평정렬! not 후손.*/
+}
+
+header .main-menu li a{
+    display: block;
+    /*li가 아닌 a 태그에 패딩으로 간격을 주는 이유:
+    일단 글자뿐 아니라 주변을 선택해도 해당 링크로 넘어갈 수 있게 하기 위해서.
+    다만 li태그에 패딩을 줄 경우 결국 a를 포함하지는 못하기에 a에 직접 패딩을 주어야 한다.
+    이때 li와 달리 a는 inline요소라 패딩을 가질 수 없는데,
+    이를 위해 display: block;처리를 해주어야 한다.*/
+    padding: 10px;
+    color: #3c4146;
+}
+header .main-menu li a:hover {
+    color: #4078c0;
+}
+header .sign-group {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header .btn-group {
+    order: 2;
+    display: flex;
+    /*이미 수평이었지만 사실상 inline-block요소라 inline처럼 중간에 띄어쓰기가 되어 있던 상태.
+    flex로 수평화 시키면 그 띄어쓰기가 사라짐.*/
+}
+header .btn-group .sign-in {
+    margin-right: 4px;
+}
+#search-form {
+    order: 1;
+    margin-right: 12px;
+}
+#search{
+    width: 160px;
+    font-size: 14px;
+}
+#search + [type="submit"] {
+    display: none;
+}
+/*+는 형제 선택자,[] 대괄호는 속성선택자.*/
+header .sub-menu {
+    order: 0;
+    /*order는 기본값이 0이기 때문에 생략이 가능하다.*/
+    display: flex;
+    margin-right: 10px;
+}
+header .sub-menu li a{
+    padding: 8px;
+    display: block;
+    font-size: 13px;
+    color: #3c4146;
+}
+header .sub-menu li a:hover{
+    color: #4078c0;
+}
