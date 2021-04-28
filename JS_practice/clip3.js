@@ -95,20 +95,130 @@
 //
 // console.log(eam);
 
-if (false) console.log(false);
-if (0) console.log(false);
-if ('') console.log('');
-if (null) console.log(null);
-if (undefined) console.log(undefined);
-if (NaN) console.log(NaN);
+// if (false) console.log(false);
+// if (0) console.log(false);
+// if ('') console.log('');
+// if (null) console.log(null);
+// if (undefined) console.log(undefined);
+// if (NaN) console.log(NaN);
+//
+// if (true) console.log(true);
+// if (37) console.log(37);
+// if (-37) console.log(-37);
+// if ('Mark') console.log('Mark');
+// if ({}) console.log({});
+// if ([]) console.log([]);
+//
+// let n = 5;
+// n % 5 === 0 && console.log('5로 나눠 떨어질 때만 실행');
+// n % 7 === 0 && console.log('5로 나눠 떨어질 때만 실행');
 
-if (true) console.log(true);
-if (37) console.log(37);
-if (-37) console.log(-37);
-if ('Mark') console.log('Mark');
-if ({}) console.log({});
-if ([]) console.log([]);
+// let n = 5;
+// console.log(n%5 === 0 ? '5의 배수입니다' : '5의 배수가 아닙니다');
+//
+// // 조건 ? 조건이 참이면 실행되는 표현식 : 조건이 거짓이면 실행되는 표현식
+// // 중괄호 사용 불가 문법이므로 하나의 표현식만 사용 가능
+//
+// const message = n%5 === 0 ? '5의 배수입니다' : '5의 배수가 아닙니다';
+// console.log(message);
+//
+// // 표현식의 결과를 변수에 할당 가능
 
-let n = 5;
-n % 5 === 0 && console.log('5로 나눠 떨어질 때만 실행');
-n % 7 === 0 && console.log('5로 나눠 떨어질 때만 실행');
+// let n = 5;
+//
+// switch (n) {
+//     default:
+//         console.log(n);
+// }
+// // default 뒤에 있는 문장은 항상 참이어서 실행되는 블럭
+// switch (n%5) {
+//     case 0: {
+//         console.log('5의 배수입니다.')
+//     }
+//     default: {
+//         console.log(n);
+//     }
+// }
+// // n을 5로 나눈 나머지가 0인경우 실행되는 블럭 추가, case '비교할 값': 을 이용해서 맞을 경우 실행
+// // 이때 앞 case가 조건이 맞으므로 언제나 실행되는 default와 동시 실행
+// switch (n%5) {
+//     case 0: {
+//         console.log('5의 배수입니다.')
+//         break;
+//     }
+//     default: {
+//         console.log(n);
+//     }
+// }
+// 만약 case가 맞을 경우 default 블럭이 실행되게 하고 싶지 않다면 case문에 break를 달아주면 된다.
+
+// n=10
+// switch (n%5) {
+//     case 0: {
+//         console.log('5의 배수입니다.')
+//         break;
+//     }
+//     case 1:
+//     case 2:
+//     case 3:
+//     case 4:
+//         console.log('5의 배수가 아닙니다.')
+//     default: {
+//         console.log(n);
+//     }
+// }
+
+// // 나의 해석: 0부터 5전, 즉 4까지 ++, 즉 1씩 증가하며 반복한다
+// for (let i = 0, j=2; i<6; i++, j=j*j) {
+//     console.log('안녕하세요', i, j);
+// }
+// for (let i =0; i<5; i++) {
+//     console.log(i);
+//     if (i>2) {
+//         break;
+//     }
+//     console.log('안녕하세요', i);
+// }
+// // 예상: 00 11 22 3 > 맞음
+// for (let i =0; i<5; i++) {
+//     console.log(i);
+//     if (i<2) {
+//         continue;
+//     }
+//     console.log('안녕하세요', i);
+// }
+
+// for (;;) {
+//     console.log('안녕하세요');
+//     k=Math.random()
+//     if (k * 100 >90) {
+//         console.log(k)
+//         break;
+//     }
+// }
+//
+// while (true) {
+//     console.log('안녕하세요');
+//     if (Math.random()*100>90) {
+//         break;
+//     }
+// }
+//
+// do {
+//     console.log('안녕하지 않습니다');
+// } while (Math.random()*100<=90);
+
+for (const i of [1,2,3]) {
+    console.log(i);
+}
+// i 는 상수가 아니라 [1,2,3] 어레이의 요소 값에 따라 자꾸 변할텐데 왜 let이 아니라 const를 사용하는건지?
+
+Object.prototype.test = function () {};
+for (const i in {a:1, b:2, c:3}) {
+    console.log(i);
+}
+// for in 에서 test가 같이 출력된다는 것만 알겟고 나머지는 다 모르겠음...
+// 더 찾아보기. 강의에서도 제대로 설명 안 해줌.
+
+
+
