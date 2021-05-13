@@ -39,9 +39,29 @@
 // let age = Number('임의의 문자열 123');
 // alert(age); //NaN(Not a Number)
 
-let officialJsName = prompt('what is official name of JS?', '');
-if (officialJsName=='ECMAScript') {
-    alert('right!');
-} else {
-    alert('It is ECMAScript, U DumbAss!')
-}
+// let officialJsName = prompt('what is official name of JS?', '');
+// if (officialJsName=='ECMAScript') {
+//     alert('right!');
+// } else {
+//     alert('It is ECMAScript, U DumbAss!')
+// }
+
+// let userNumber = prompt('숫자를 적어주세요!', '');
+// if (userNumber>0) {
+//     alert(1);
+// } else if (userNumber<0) {
+//     alert(-1);
+// } else {
+//     alert(0);
+// }
+
+// a = prompt('숫자입력', '');
+// b = prompt('숫자입력', '');
+// alert((+a + +b < 4) ? '미만' : '이상');
+
+// let result = (a+b<4) ? '미만' : '이상';
+
+let message = (login == '직원') ? message = '안녕하세요.' :
+                (login == '임원') ? message = '환영합니다.' :
+                (login == '') ? message = '로그인이 필요합니다.' :
+                '';

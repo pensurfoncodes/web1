@@ -1,0 +1,979 @@
+/* Main_login */
+
+position: relative;
+width: 1920px;
+height: 3762px;
+
+
+
+/* main */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+
+
+/* main_background */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #BFE0FF;
+
+
+/* main_inner_contents */
+
+position: absolute;
+width: 1227px;
+height: 222px;
+left: 303px;
+top: 286px;
+
+
+
+/* 탄소 감축, 측정부터 보상까지 한번에. */
+
+position: absolute;
+width: 555px;
+height: 57px;
+left: 303px;
+top: 286px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 일상 패턴으로 알아보는 1분 탄소 측정과 개별 사용자에 최적화된 탄소 감축 솔루션, 솔루션 달성시 주어지는 다양한 보상까지. 지속가능한 탄소감축, 섭씨일반과 함께라면 가능해요. */
+
+position: absolute;
+width: 1227px;
+height: 78px;
+left: 303px;
+top: 343px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Group 9 */
+
+position: absolute;
+width: 226px;
+height: 50px;
+left: 303px;
+top: 458px;
+
+filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.25));
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 226px;
+height: 50px;
+left: 303px;
+top: 458px;
+
+background: #2D90FF;
+border-radius: 8px;
+
+
+/* 1분만에 탄소 측정하기 */
+
+position: absolute;
+width: 199.03px;
+height: 50px;
+left: 316.95px;
+top: 458px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 33px;
+height: 33px;
+left: 303px;
+top: 13px;
+
+background: linear-gradient(153.76deg, #FFBBBB 2.93%, rgba(255, 255, 255, 0) 92.5%), #759CFF;
+border-radius: 8px;
+
+
+/* header */
+
+position: absolute;
+width: 1920px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+
+
+/* Group 8 */
+
+position: absolute;
+width: 1920px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+
+
+/* Header */
+
+position: absolute;
+width: 1920px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* header_items */
+
+position: absolute;
+width: 139px;
+height: 36px;
+left: 302px;
+top: 10px;
+
+
+
+/* Logo */
+
+position: absolute;
+width: 139px;
+height: 36px;
+left: 302px;
+top: 10px;
+
+
+
+/* 섭씨일반 */
+
+position: absolute;
+width: 87px;
+height: 28px;
+left: 354px;
+top: 16px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #282828;
+
+
+
+/* favicon */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 302px;
+top: 10px;
+
+background: url(image.png);
+
+
+/* Group 10 */
+
+position: absolute;
+width: 147px;
+height: 30px;
+left: 1478px;
+top: 15px;
+
+
+
+/* 로그인 */
+
+position: absolute;
+width: 42px;
+height: 20px;
+left: 1478px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Group 12 */
+
+position: absolute;
+width: 80px;
+height: 30px;
+left: 1545px;
+top: 15px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 80px;
+height: 30px;
+left: 1545px;
+top: 15px;
+
+background: #2D90FF;
+border-radius: 8px;
+
+
+/* 가입하기 */
+
+position: absolute;
+width: 56px;
+height: 20px;
+left: 1557px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* menu-tab-left */
+
+position: absolute;
+width: 337px;
+height: 20px;
+left: 472px;
+top: 20px;
+
+
+
+/* 환경 소식 */
+
+position: absolute;
+width: 60px;
+height: 20px;
+left: 749px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 챌린지 현황 */
+
+position: absolute;
+width: 73px;
+height: 20px;
+left: 560px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 보상 받기 */
+
+position: absolute;
+width: 60px;
+height: 20px;
+left: 661px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 탄소 측정 */
+
+position: absolute;
+width: 60px;
+height: 20px;
+left: 472px;
+top: 20px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* main_page_emoji */
+
+position: absolute;
+width: 2050px;
+height: 143px;
+left: -65px;
+top: 696px;
+
+
+
+/* image 6 */
+
+position: absolute;
+width: 143px;
+height: 143px;
+left: 1418px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 31 */
+
+position: absolute;
+width: 143px;
+height: 143px;
+left: 1630px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 33 */
+
+position: absolute;
+width: 143px;
+height: 143px;
+left: 1842px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 7 */
+
+position: absolute;
+width: 142px;
+height: 143px;
+left: 995px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 20 */
+
+position: absolute;
+width: 143px;
+height: 143px;
+left: 1206px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 38 */
+
+position: absolute;
+width: 143px;
+height: 142px;
+left: 783px;
+top: 697px;
+
+background: url(image.png);
+
+
+/* image 14 */
+
+position: absolute;
+width: 143px;
+height: 142px;
+left: 571px;
+top: 697px;
+
+background: url(image.png);
+
+
+/* image 15 */
+
+position: absolute;
+width: 143px;
+height: 142px;
+left: 147px;
+top: 697px;
+
+background: url(image.png);
+
+
+/* image 18 */
+
+position: absolute;
+width: 143px;
+height: 143px;
+left: -65px;
+top: 696px;
+
+background: url(image.png);
+
+
+/* image 34 */
+
+position: absolute;
+width: 143px;
+height: 142px;
+left: 359px;
+top: 697px;
+
+background: url(image.png);
+
+
+/* Group 14 */
+
+position: absolute;
+width: 1920px;
+height: 1019px;
+left: 0px;
+top: 1080px;
+
+
+
+/* main_background */
+
+position: absolute;
+width: 1920px;
+height: 1019px;
+left: 0px;
+top: 1080px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #BFE0FF, #BFE0FF);
+
+
+/* Group 11 */
+
+position: absolute;
+width: 1314px;
+height: 186px;
+left: 309px;
+top: 1315px;
+
+
+
+/* main_inner_contents */
+
+position: absolute;
+width: 1314px;
+height: 101px;
+left: 309px;
+top: 1315px;
+
+
+
+/* 환경을 위한 불편함, 개인의 희생으로 끝나지 않도록. */
+
+position: absolute;
+width: 1314px;
+height: 101px;
+left: 309px;
+top: 1315px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+
+
+
+/* 누군가의 희생만으로 이뤄지는 변화는 한계에 부딪히기 마련이죠. 섭씨일반은 적절한 보상과 행위자의 확대로 지속가능한 탄소감축을 이뤄내고자 해요. */
+
+position: absolute;
+width: 1307px;
+height: 85px;
+left: 316px;
+top: 1416px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+
+
+
+/* image 73 */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 746px;
+top: 1683px;
+
+background: url(image.png);
+
+
+/* image 74 */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 302px;
+top: 1683px;
+
+background: url(image.png);
+
+
+/* image 75 */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 524px;
+top: 1683px;
+
+background: url(image.png);
+
+
+/* image 76 */
+
+position: absolute;
+width: 160px;
+height: 160px;
+left: 968px;
+top: 1683px;
+
+background: url(image.png);
+
+
+/* 섭씨일반의 목표 */
+
+position: absolute;
+width: 1314px;
+height: 39px;
+left: 306px;
+top: 1276px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #2D90FF;
+
+
+
+/* Group 15 */
+
+position: absolute;
+width: 1920px;
+height: 1663px;
+left: 0px;
+top: 2099px;
+
+
+
+/* main_background */
+
+position: absolute;
+width: 1920px;
+height: 1663px;
+left: 0px;
+top: 2099px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #BFE0FF;
+
+
+/* main_inner_contents */
+
+position: absolute;
+width: 1314px;
+height: 103px;
+left: 302px;
+top: 2329px;
+
+
+
+/* 지구의 섭씨, 십시일반하면 일반으로 되돌릴 수 있어요! */
+
+position: absolute;
+width: 1314px;
+height: 103px;
+left: 302px;
+top: 2329px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 이렇게 사용하세요 */
+
+position: absolute;
+width: 1314px;
+height: 39px;
+left: 303px;
+top: 2290px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #2D90FF;
+
+
+
+/* 십시일반 : 열 숟가락이 모여 하나의 밥그릇을 채운다는 의미로, 작은 힘도 모이면 큰 변화를 이룬다는 의미의 사자성어입니다. */
+
+position: absolute;
+width: 1307px;
+height: 60px;
+left: 302px;
+top: 2432px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #747474;
+
+
+
+/* Group 21 */
+
+position: absolute;
+width: 638px;
+height: 492px;
+left: 302px;
+top: 3079px;
+
+
+
+/* Group 17 */
+
+position: absolute;
+width: 638px;
+height: 492px;
+left: 302px;
+top: 3079px;
+
+
+
+/* photo-1554672408-17407e0322ce 1 */
+
+position: absolute;
+width: 636px;
+height: 492px;
+left: 303px;
+top: 3079px;
+
+background: url(photo-1554672408-17407e0322ce.jpg);
+border-radius: 50px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 638px;
+height: 492px;
+left: 302px;
+top: 3079px;
+
+background: rgba(45, 144, 255, 0.3);
+border-radius: 50px;
+
+
+/* 가짜 인증, 멈춰! 유저 간 리뷰 후에 이뤄지는 실천 승인. */
+
+position: absolute;
+width: 508px;
+height: 154px;
+left: 363px;
+top: 3375px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+
+
+/* Group 22 */
+
+position: absolute;
+width: 635px;
+height: 492px;
+left: 982px;
+top: 3079px;
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 635px;
+height: 492px;
+left: 982px;
+top: 3079px;
+
+
+
+/* photo-1554980291-c3e7cea75872 1 */
+
+position: absolute;
+width: 492px;
+height: 635px;
+left: 982px;
+top: 3571px;
+
+background: url(photo-1554980291-c3e7cea75872.jpg);
+border-radius: 50px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 635px;
+height: 492px;
+left: 982px;
+top: 3079px;
+
+background: rgba(27, 27, 27, 0.4);
+border-radius: 50px;
+
+
+/* 따릉이 이용권, 제로 웨이스트샵 교환권, 비건 식당 상품권 ... 또 다른 실천을 부르는 보상. */
+
+position: absolute;
+width: 507px;
+height: 154px;
+left: 1042px;
+top: 3375px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+
+
+/* Group 20 */
+
+position: absolute;
+width: 1314px;
+height: 492px;
+left: 303px;
+top: 2555px;
+
+
+
+/* Group 18 */
+
+position: absolute;
+width: 1314px;
+height: 492px;
+left: 303px;
+top: 2555px;
+
+
+
+/* photo-1595278069441-2cf29f8005a4 1 */
+
+position: absolute;
+width: 1314px;
+height: 492px;
+left: 303px;
+top: 2555px;
+
+background: url(photo-1595278069441-2cf29f8005a4.jpg);
+border-radius: 50px;
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 1314px;
+height: 492px;
+left: 303px;
+top: 2555px;
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+
+
+/* 매주, 격주, 한달. 직접 정하는 목표 기간으로 더 효과적인 탄소 감축. */
+
+position: absolute;
+width: 1186px;
+height: 154px;
+left: 363px;
+top: 2851px;
+
+font-family: Archivo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 33px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+
+
+/* Group 19 */
+
+position: absolute;
+width: 1317px;
+height: 384px;
+left: 303px;
+top: 1561px;
+
+
+
+/* photo-1616680214452-df6901ae5727 1 */
+
+position: absolute;
+width: 1317px;
+height: 384px;
+left: 303px;
+top: 1561px;
+
+background: url(photo-1616680214452-df6901ae5727.jpg);
+border-radius: 50px;
+
+
+/* Rectangle 16 */
+
+position: absolute;
+visibility: hidden;
+width: 1317px;
+height: 384px;
+left: 303px;
+top: 1561px;
+
+background: rgba(45, 144, 255, 0.2);
+border-radius: 50px;
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 1920px;
+height: 400px;
+left: 0px;
+top: 3762px;
+
+background: #FFFFFF;
